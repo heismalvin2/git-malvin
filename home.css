@@ -1,0 +1,113 @@
+h1 {
+    position: absolute;
+    top: 15%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+    z-index: 1; 
+    font-size: xxx-large;
+}
+p1 {
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+    z-index: 1;  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+p2 {
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+    z-index: 1;
+    font-size: small;
+}
+p3 {
+    position: absolute;
+    top: 110%; 
+    right: 45%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+    z-index: 1;
+    font-size: medium;
+}
+body{
+    background: linear-gradient(to bottom, #524a4a, #413231);
+}
+.backgroundvideo video{
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+   
+}
+.imageone{
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.imageone p4{
+    position: absolute;
+    top: 180%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center;
+    z-index: 1;
+    font-size: medium;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 2;
+    }
+}
+.imageone:hover {
+    animation: fadein 2s forwards; 
+}
+.imageone img{
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 1230px;
+    animation: fadein 2s forwards;
+    opacity: 50%;
+}
+hr {
+    height: 1px;
+    background-color: #695940;
+    border-color: #69534b;
+}
+.top {
+    position: fixed;
+    border-color: #fff;
+    background-color: transparent;
+    border: #fff;
+    width: 100%;
+    margin: -8px;
+    z-index: 10;
+}
+nav ul{
+    list-style-type: none;
+    padding: 100;
+    margin: 500;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: #7c5a33;
+}
+

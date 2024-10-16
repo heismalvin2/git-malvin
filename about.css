@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://img.pikbest.com/wp/202344/fabric-cloth-texture-close-up-view-of-brown-colored-natural-beige-or-displaying-its-textured-surface_9926615.jpg!sw800");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(255, 115, 0);
+    background: transparent;
+}
+.aboutus h4{
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.aboutus p{
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul{
+    list-style-type: none;
+    padding: 100;
+    margin: 500;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: #393116
+}

@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/contact-us-hand-brown-card-showing-gray-gradually-varied-background-52780599.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.contact{
+    text-align: left;
+    border-radius: 8px;
+    font-size: medium;
+    background-color: transparent;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 2px 10px rgb(108, 91, 77);
+    background: transparent;
+}
+.contact p{
+    color: #d7d7d7;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.contact h3{
+    font-size: 24px;
+    color: #e8e8e8;
+    margin-bottom: 15px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 100;
+    margin: 500;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(225, 224, 222);
+}
+a:hover{
+    color: #715313
+}

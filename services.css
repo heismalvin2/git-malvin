@@ -1,0 +1,144 @@
+body{
+    background-image: url("https://www.shutterstock.com/image-illustration/clothes-on-grunge-background-shelf-600nw-1936769968.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+.service{
+    text-align: left;
+    background-color: #98b6e6;
+    border-radius: 8px;
+    font-size: medium;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+    background: transparent;
+}
+.service p{
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.service h1{
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 100;
+    margin: 500;
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: #5c3f13
+}
+.firstservice{
+    color: #ffffff;
+}
+@keyframes slideIn{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.gallery :hover{
+    animation: fadein 2s forwards;
+}
+.gallery {
+    animation: slideIn 2s ease forwards;
+  }
+.gallery img {
+    border-radius: 10px; 
+    height: 70vh;
+    opacity: 80%;
+}
+.secondservice{
+    color: #ffffff;
+}
+.secondservice h3{
+    font-size: 24px;
+}
+.secondgallery{
+  animation: fadein 2s ease forwards;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 2;
+    }
+}
+.secondgallery :hover{
+    animation: fadein 2s forwards;
+}
+.secondgallery img{
+    border-radius: 10px;
+    height: 50vh;
+    opacity: 80%;
+}
+.thirdservice{
+    color: #ffffff;
+}
+.thirdservice h4{
+    font-size: 24px;
+}
+.thirdgallery{
+    animation: fadein 2s forwards; 
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 2;
+    }
+}
+.thirdgallery :hover{
+    animation: fadein 2s forwards;
+}
+.thirdgallery img{
+    border-radius: 10px;
+    height: 50vh;
+    opacity: 80%;
+}
+.fourthservice{
+    color: #ffffff;
+}
+.fourthservice h5{
+    font-size: 24px;
+}
+.fourthgallery{
+    animation: slideIn 1.5s ease forwards;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%); 
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+.fourthgallery :hover{
+    animation: fadein 2s forwards;
+}
+.fourthgallery img{
+    height: 50vh;
+    border-radius: 10px;
+    opacity: 80%;
+}
